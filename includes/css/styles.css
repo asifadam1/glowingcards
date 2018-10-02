@@ -1,0 +1,249 @@
+/*
+
+My Custom CSS
+=============
+
+
+
+*/
+
+body{
+	background-color: black;
+}
+/* --------------------------------------
+   Cssfor feature panels
+   -------------------------------------- */
+#features {
+	text-align: center;
+	
+	
+}
+
+.panel-1{
+	background-color: #0000;
+	border: 3px solid #fff;
+	
+}
+
+.panel-heading{
+	background-color: #0000;
+	border: none;
+}
+
+.panel-title{
+	font-family: 'Alfa Slab One';
+	font-size: 32px;
+	
+}
+
+.card-body{
+	margin-top: 20px;
+}
+
+
+/* --------------------------------------
+   Typography
+   -------------------------------------- */
+   
+
+.glow {
+	padding-top: 80px;
+	padding-bottom: 30px;
+  font-size: 80px;
+  
+  color: #fff;
+  text-align: center;
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+
+
+@-webkit-keyframes glow {
+  from {
+     
+	 text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+  }
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+  }
+}
+
+.glow2{
+	
+
+  color: #fff;
+  text-align: center;
+  -webkit-animation: glow2 1s ease-in-out infinite alternate;
+  -moz-animation: glow2 1s ease-in-out infinite alternate;
+  animation: glow2 1s ease-in-out infinite alternate;
+}
+@-webkit-keyframes glow2 {
+  from {
+     text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e8e402, 0 0 40px #e8e402, 0 0 50px #e8e402, 0 0 60px #e8e402, 0 0 70px #e8e402;
+	 
+  }
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #fcf94b, 0 0 50px #fcf94b, 0 0 60px #fcf94b, 0 0 70px #fcf94b, 0 0 80px #fcf94b;
+  }
+}
+  
+
+
+.glow3{
+	
+
+  color: #fff;
+  text-align: center;
+  -webkit-animation: glow3 1s ease-in-out infinite alternate;
+  -moz-animation: glow3 1s ease-in-out infinite alternate;
+  animation: glow3 1s ease-in-out infinite alternate;
+}
+@-webkit-keyframes glow3 {
+  from {
+     text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #00e807, 0 0 40px #00e807, 0 0 50px #00e807, 0 0 60px #00e807, 0 0 70px #00e807;
+  }
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #49ff62, 0 0 50px #49ff62, 0 0 60px #49ff62, 0 0 70px #49ff62, 0 0 80px #49ff62;
+  }
+}
+
+.glow4{
+	
+
+  color: #fff;
+  text-align: center;
+  -webkit-animation: glow4 1s ease-in-out infinite alternate;
+  -moz-animation: glow4 1s ease-in-out infinite alternate;
+  animation: glow4 1s ease-in-out infinite alternate;
+}
+@-webkit-keyframes glow4 {
+  from {
+     text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #0010f7, 0 0 40px #0010f7, 0 0 50px #0010f7, 0 0 60px #0010f7, 0 0 70px #0010f7;
+  }
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #4753ff, 0 0 50px #4753ff, 0 0 60px #4753ff, 0 0 70px #4753ff, 0 0 80px #4753ff;
+  }
+}
+
+/* --------------------------------------
+   Navbar
+   -------------------------------------- */
+   
+   
+   
+/* --------------------------------------
+   Carousel
+   -------------------------------------- */
+#myCarousel .item {height: 310px;}
+
+.carousel-caption h2 {
+	font-size: 32px;
+	font-family: 'Alfa Slab One';
+	color: white;
+}
+
+			#slide1{
+				background: url('../../images/Small/rust.jpg') top center no-repeat;
+			}
+
+			#slide2{
+				background: url('../../images/Small/oil-gas.jpg') top center no-repeat;
+			}
+
+			#slide3{
+				background: url('../../images/Small/fighter.jpg') top center no-repeat;
+			}
+
+			#slide4{
+				background: url('../../images/Small/lightning.jpg') top center no-repeat;
+			}
+			
+
+/* ---------------------------------------
+	Carousel Styling
+   --------------------------------------- */
+   .carousel-caption{
+  font-family: 'Alfa Slab One';
+  color: white;
+  width: 100%;
+  background-color: #1b65dd;
+  opacity: 0.8;
+  position:absolute;
+  left: 0px;
+  filter: alpha(opacity=75);
+ 
+  
+} .carousel-caption:hover {
+  background:#1f2a91;
+}
+   
+   
+	
+/* --------------------------------------
+   Global Styles
+   -------------------------------------- */
+
+/* --------------------------------------
+   Media Queries
+   -------------------------------------- */
+
+/* Portrait & landscape phone */
+@media (max-width: 480px) {
+	
+		
+}
+	
+	
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 768px) {
+	
+	#myCarousel .item {height: 310px;}
+
+		#slide1{
+			background: url('../../images/Medium/rust.jpg') top center no-repeat;
+		}
+
+		#slide2{
+			background: url('../../images/Medium/oil-gas.jpg') top center no-repeat;
+		}
+
+		#slide3{
+			background: url('../../images/Medium/fighter.jpg') top center no-repeat;
+		}
+
+		#slide4{
+			background: url('../../images/Medium/lightning.jpg') top center no-repeat;
+		}
+		
+		.carousel-caption h2 {
+		font-size: 22px;
+		font-family: 'Alfa Slab One';
+		color: white;
+		}
+	
+}
+
+/* Large desktop */
+@media (min-width: 1200px) {
+	#myCarousel .item {height: 500px;}
+			
+		#slide1{
+			background: url('../../images/Large/rust.jpg') top center no-repeat;
+		}
+
+		#slide2{
+			background: url('../../images/Large/oil-gas.jpg') top center no-repeat;
+		}
+
+		#slide3{
+			background: url('../../images/Large/fighter.jpg') top center no-repeat;
+		}
+
+		#slide4{
+			background: url('../../images/Large/lightning.jpg') top center no-repeat;
+		}
+
+	
+}
